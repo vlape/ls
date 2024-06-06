@@ -1,0 +1,19 @@
+{
+  "description" : "Allow Rules",
+  "name" : "Allow Rules",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "identifier.2BUA8C4S2C\/com.1password.1password",
+      "protocol" : "tcp",
+      "remote-domains" : "1password.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "identifier.85C27NK92C\/85C27NK92C.com.flexibits.fantastical2.mac.helper",
+      "protocol" : "tcp",
+      "remote-domains" : "flexibits.com"
+    }
+}
