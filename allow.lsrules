@@ -1,6 +1,6 @@
 {
-  "description" : "Allow Rules",
-  "name" : "Allow Rules",
+  "description" : "test1",
+  "name" : "test1",
   "rules" : [
     {
       "action" : "allow",
@@ -15,5 +15,49 @@
       "process" : "identifier.85C27NK92C\/85C27NK92C.com.flexibits.fantastical2.mac.helper",
       "protocol" : "tcp",
       "remote-domains" : "flexibits.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "identifier.85C27NK92C\/85C27NK92C.com.flexibits.fantastical2.mac.helper",
+      "protocol" : "tcp",
+      "remote-domains" : "googleapis.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "identifier.43AQ936H96\/org.mozilla.firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "identifier.43AQ936H96\/org.mozilla.firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "8000",
+      "process" : "identifier.43AQ936H96\/org.mozilla.firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "9090",
+      "process" : "identifier.43AQ936H96\/org.mozilla.firefox",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "identifier.EQHXZ8M8AV\/com.google.Chrome",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "identifier.EQHXZ8M8AV\/com.google.Chrome",
+      "remote" : "any"
     }
+  ]
 }
